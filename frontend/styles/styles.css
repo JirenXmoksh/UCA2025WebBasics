@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+body{
+    background-color: #121212;
+    color: rgb(220, 220, 220);
+    font-family: 'Gilroy-Regular';
+}
+::selection{
+  color: white;
+}
+#data{
+  display: flex; 
+  justify-content: center; 
+}
+
+.head{
+  font-size: 6vw;
+  background: linear-gradient(to bottom left, rgb(51, 1, 1), rgb(101, 1, 1), rgb(239, 5, 5));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+.subHead{
+  text-align:center;
+  font-size: 2.5vw;
+  /* border: 2px solid rgb(220, 220, 220); */
+  border-radius: 10px;
+  width:fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #121212;  
+  background-color: rgb(220, 220, 220);
+}
+table{
+  border-spacing: 10px;
+  border-collapse: seperate;
+}
+th, td{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+th{
+  border-spacing: 15px;
+  font-size: 15px;
+  color: white;
+  border-bottom: 1px solid white;
+  text-align: center; 
+  justify-content: center;
+}
+td{
+  font-size: 12px;
+  text-align: center; 
+  /* background: linear-gradient(to left, rgb(53, 52, 52)rgb(129, 127, 127), rgb(197, 195, 195)); */
+  /* background-color: white; */
+  border-left: 1px solid white;
+}
